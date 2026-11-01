@@ -1,0 +1,43 @@
+{
+  "name": "dfg_re20_g2",
+  "kind": "steady",
+  "solver": {
+    "nx": 440,
+    "ny": 82,
+    "Lx": 22.0,
+    "Ly": 4.1,
+    "D": 1.0,
+    "xc": 2.0,
+    "yc": 2.0,
+    "nu": 0.05,
+    "rho": 1.0,
+    "U_inf": 1.0,
+    "inflow": "parabolic",
+    "U_m": 1.5,
+    "boundary": "cut_cell",
+    "transport": "centered",
+    "time_scheme": "ab2_cn",
+    "pressure_solver": "cg_dct",
+    "verbose": false
+  },
+  "dt": 0.0025,
+  "end_time": 50.0,
+  "sample_start": 25.0,
+  "perturb_transient": false,
+  "reference_source": "https://wwwold.mathematik.tu-dortmund.de/~featflow/en/benchmarks/cfdbenchmarking/flow/dfg_benchmark1_re20.html",
+  "reference_note": "Internal tolerances: Cd and pressure drop 1%; Cl absolute 0.0005. Pressure scaled by physical U_mean^2=0.04.",
+  "reference": {
+    "cd_mean": [
+      5.5237398815016,
+      5.6353305861784
+    ],
+    "cl_mean": [
+      0.010118948146,
+      0.011118948146
+    ],
+    "delta_p": [
+      2.9086241325075,
+      2.9673842159925
+    ]
+  }
+}

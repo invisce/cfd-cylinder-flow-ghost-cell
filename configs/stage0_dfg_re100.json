@@ -1,0 +1,17 @@
+{
+  "name": "dfg_re100",
+  "kind": "periodic",
+  "solver": {
+    "nx": 440, "ny": 82, "Lx": 22.0, "Ly": 4.1,
+    "D": 1.0, "xc": 2.0, "yc": 2.0, "nu": 0.01,
+    "rho": 1.0, "U_inf": 1.0, "inflow": "parabolic", "U_m": 1.5,
+    "boundary": "cut_cell", "transport": "centered",
+    "time_scheme": "ab2_cn", "pressure_solver": "cg_dct", "verbose": false
+  },
+  "dt": 0.005,
+  "end_time": 300.0,
+  "sample_start": 200.0,
+  "perturb_transient": false,
+  "reference_note": "Existing Schafer-Turek 1996 acceptance ranges, retained separately from newer downloadable reference traces.",
+  "reference": {"cd_max": [3.22, 3.24], "cl_max": [0.99, 1.01], "strouhal": [0.295, 0.305]}
+}

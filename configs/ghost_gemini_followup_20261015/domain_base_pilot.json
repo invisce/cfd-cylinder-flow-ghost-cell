@@ -1,0 +1,26 @@
+{
+  "profile_stride": 10,
+  "sample_start": 10.0,
+  "solver": {
+    "nu": 0.01,
+    "rho": 1.0,
+    "time_scheme": "ab2_cn",
+    "nx": 600,
+    "boundary": "ghost_cell",
+    "D": 1.0,
+    "yc": 10.0,
+    "Lx": 30.0,
+    "pressure_solver": "direct",
+    "U_inf": 1.0,
+    "ny": 400,
+    "inflow": "uniform",
+    "xc": 10.0,
+    "transport": "centered",
+    "Ly": 20.0,
+    "verbose": false
+  },
+  "end_time": 20.0,
+  "kind": "diagnostic",
+  "purpose": "Equal-spacing D/h=20 domain pilot only. Requires budget/timing and longer settled production runs before domain acceptance.",
+  "dt": 0.002
+}

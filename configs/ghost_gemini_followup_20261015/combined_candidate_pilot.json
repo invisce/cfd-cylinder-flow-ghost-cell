@@ -1,0 +1,27 @@
+{
+  "profile_stride": 2,
+  "sample_start": 0.02,
+  "solver": {
+    "yc": 1.5,
+    "U_inf": 1.0,
+    "ghost_velocity_interpolation": "biquadratic",
+    "pressure_solver": "iterative",
+    "time_scheme": "ab2_cn",
+    "Lx": 4.0,
+    "nx": 80,
+    "nu": 0.01,
+    "Ly": 3.0,
+    "boundary": "ghost_cell",
+    "transport": "centered",
+    "verbose": false,
+    "xc": 1.5,
+    "D": 1.0,
+    "ghost_pressure_extension": "quadratic",
+    "ny": 60,
+    "rho": 1.0
+  },
+  "end_time": 0.1,
+  "kind": "diagnostic",
+  "purpose": "Short combined-candidate diagnostic only; no benchmark acceptance",
+  "dt": 0.001
+}

@@ -1,0 +1,27 @@
+{
+  "sample_start": 0.0005,
+  "end_time": 0.0025,
+  "kind": "diagnostic",
+  "dt": 0.0005,
+  "profile_stride": 1,
+  "solver": {
+    "boundary": "ghost_cell",
+    "U_inf": 1.0,
+    "transport": "centered",
+    "U_m": 1.5,
+    "D": 1.0,
+    "inflow": "parabolic",
+    "time_scheme": "ab2_cn",
+    "nu": 0.01,
+    "yc": 2.0,
+    "pressure_solver": "iterative",
+    "ny": 246,
+    "xc": 2.0,
+    "Ly": 4.1,
+    "rho": 1.0,
+    "Lx": 22.0,
+    "verbose": false,
+    "nx": 1320
+  },
+  "purpose": "Five-step production-sized iterative backend pilot; not a periodic validation or new RMS result"
+}

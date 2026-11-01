@@ -1,0 +1,28 @@
+{
+  "name": "dfg_re100_pilot_440",
+  "kind": "periodic",
+  "solver": {
+    "nx": 440,
+    "ny": 82,
+    "Lx": 22.0,
+    "Ly": 4.1,
+    "D": 1.0,
+    "xc": 2.0,
+    "yc": 2.0,
+    "nu": 0.01,
+    "rho": 1.0,
+    "U_inf": 1.0,
+    "inflow": "parabolic",
+    "U_m": 1.5,
+    "boundary": "cut_cell",
+    "transport": "centered",
+    "time_scheme": "ab2_cn",
+    "pressure_solver": "cg_dct",
+    "verbose": false
+  },
+  "dt": 0.0025,
+  "end_time": 25.0,
+  "sample_start": 10.0,
+  "perturb_transient": false,
+  "reference_note": "Diagnostic periodic pilot: CFL, startup/oscillation growth, iteration costs and resources only; insufficient developed cycles must not certify benchmark acceptance or paper readiness."
+}

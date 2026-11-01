@@ -1,0 +1,28 @@
+{
+  "name": "research_re100_domain_b",
+  "kind": "periodic",
+  "solver": {
+    "nx": 820,
+    "ny": 620,
+    "Lx": 41.0,
+    "Ly": 31.0,
+    "D": 1.0,
+    "xc": 15.5,
+    "yc": 15.5,
+    "nu": 0.01,
+    "rho": 1.0,
+    "U_inf": 1.0,
+    "inflow": "uniform",
+    "U_m": 1.5,
+    "boundary": "cut_cell",
+    "transport": "centered",
+    "time_scheme": "ab2_cn",
+    "pressure_solver": "cg_dct",
+    "verbose": false,
+    "slip_walls": true
+  },
+  "dt": 0.0025,
+  "end_time": 400.0,
+  "sample_start": 200.0,
+  "perturb_transient": true
+}
