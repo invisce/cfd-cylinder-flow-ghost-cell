@@ -1,0 +1,1629 @@
+{
+  "manifest_version": "1.0",
+  "campaign": "Paper1_Hydrodynamic_Observability",
+  "total_cases": 180,
+  "n_train": 144,
+  "n_test": 36,
+  "cases": [
+    {
+      "case_id": "P1_0000",
+      "case_type": "pristine_baseline",
+      "Re": 80.0,
+      "depth_ratio": 0.0,
+      "width_deg": 0.0,
+      "theta_d_deg": 0.0,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0001",
+      "case_type": "pristine_baseline",
+      "Re": 100.0,
+      "depth_ratio": 0.0,
+      "width_deg": 0.0,
+      "theta_d_deg": 0.0,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0002",
+      "case_type": "pristine_baseline",
+      "Re": 120.0,
+      "depth_ratio": 0.0,
+      "width_deg": 0.0,
+      "theta_d_deg": 0.0,
+      "split": "holdout_test"
+    },
+    {
+      "case_id": "P1_0003",
+      "case_type": "pristine_baseline",
+      "Re": 150.0,
+      "depth_ratio": 0.0,
+      "width_deg": 0.0,
+      "theta_d_deg": 0.0,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0004",
+      "case_type": "pristine_baseline",
+      "Re": 180.0,
+      "depth_ratio": 0.0,
+      "width_deg": 0.0,
+      "theta_d_deg": 0.0,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0005",
+      "case_type": "deterministic_calibration",
+      "Re": 100.0,
+      "depth_ratio": 0.1,
+      "width_deg": 60.0,
+      "theta_d_deg": 0.0,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0006",
+      "case_type": "deterministic_calibration",
+      "Re": 100.0,
+      "depth_ratio": 0.1,
+      "width_deg": 60.0,
+      "theta_d_deg": 90.0,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0007",
+      "case_type": "deterministic_calibration",
+      "Re": 100.0,
+      "depth_ratio": 0.1,
+      "width_deg": 60.0,
+      "theta_d_deg": 180.0,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0008",
+      "case_type": "deterministic_calibration",
+      "Re": 100.0,
+      "depth_ratio": 0.05,
+      "width_deg": 30.0,
+      "theta_d_deg": 85.0,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0009",
+      "case_type": "deterministic_calibration",
+      "Re": 100.0,
+      "depth_ratio": 0.05,
+      "width_deg": 30.0,
+      "theta_d_deg": 105.0,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0010",
+      "case_type": "deterministic_calibration",
+      "Re": 80.0,
+      "depth_ratio": 0.1,
+      "width_deg": 40.0,
+      "theta_d_deg": 90.0,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0011",
+      "case_type": "deterministic_calibration",
+      "Re": 180.0,
+      "depth_ratio": 0.1,
+      "width_deg": 40.0,
+      "theta_d_deg": 90.0,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0012",
+      "case_type": "deterministic_calibration",
+      "Re": 150.0,
+      "depth_ratio": 0.025,
+      "width_deg": 20.0,
+      "theta_d_deg": 45.0,
+      "split": "holdout_test"
+    },
+    {
+      "case_id": "P1_0013",
+      "case_type": "deterministic_calibration",
+      "Re": 120.0,
+      "depth_ratio": 0.075,
+      "width_deg": 40.0,
+      "theta_d_deg": 90.0,
+      "split": "holdout_test"
+    },
+    {
+      "case_id": "P1_0014",
+      "case_type": "deterministic_calibration",
+      "Re": 100.0,
+      "depth_ratio": 0.025,
+      "width_deg": 10.0,
+      "theta_d_deg": 0.0,
+      "split": "holdout_test"
+    },
+    {
+      "case_id": "P1_0015",
+      "case_type": "space_filling_lhs",
+      "Re": 111.87,
+      "depth_ratio": 0.0695,
+      "width_deg": 25.69,
+      "theta_d_deg": 79.64,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0016",
+      "case_type": "space_filling_lhs",
+      "Re": 161.32,
+      "depth_ratio": 0.0732,
+      "width_deg": 29.83,
+      "theta_d_deg": 123.27,
+      "split": "holdout_test"
+    },
+    {
+      "case_id": "P1_0017",
+      "case_type": "space_filling_lhs",
+      "Re": 111.47,
+      "depth_ratio": 0.0908,
+      "width_deg": 17.72,
+      "theta_d_deg": 110.49,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0018",
+      "case_type": "space_filling_lhs",
+      "Re": 120.35,
+      "depth_ratio": 0.0978,
+      "width_deg": 33.94,
+      "theta_d_deg": 166.98,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0019",
+      "case_type": "space_filling_lhs",
+      "Re": 169.91,
+      "depth_ratio": 0.0262,
+      "width_deg": 46.57,
+      "theta_d_deg": 143.41,
+      "split": "holdout_test"
+    },
+    {
+      "case_id": "P1_0020",
+      "case_type": "space_filling_lhs",
+      "Re": 141.57,
+      "depth_ratio": 0.0935,
+      "width_deg": 31.16,
+      "theta_d_deg": 55.78,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0021",
+      "case_type": "space_filling_lhs",
+      "Re": 94.56,
+      "depth_ratio": 0.0662,
+      "width_deg": 23.91,
+      "theta_d_deg": 45.98,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0022",
+      "case_type": "space_filling_lhs",
+      "Re": 156.34,
+      "depth_ratio": 0.016,
+      "width_deg": 35.39,
+      "theta_d_deg": 85.78,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0023",
+      "case_type": "space_filling_lhs",
+      "Re": 168.78,
+      "depth_ratio": 0.0736,
+      "width_deg": 50.36,
+      "theta_d_deg": 26.61,
+      "split": "holdout_test"
+    },
+    {
+      "case_id": "P1_0024",
+      "case_type": "space_filling_lhs",
+      "Re": 110.78,
+      "depth_ratio": 0.0683,
+      "width_deg": 35.93,
+      "theta_d_deg": 124.28,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0025",
+      "case_type": "space_filling_lhs",
+      "Re": 103.08,
+      "depth_ratio": 0.0199,
+      "width_deg": 10.64,
+      "theta_d_deg": 101.8,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0026",
+      "case_type": "space_filling_lhs",
+      "Re": 166.96,
+      "depth_ratio": 0.089,
+      "width_deg": 49.29,
+      "theta_d_deg": 23.7,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0027",
+      "case_type": "space_filling_lhs",
+      "Re": 157.27,
+      "depth_ratio": 0.0798,
+      "width_deg": 41.2,
+      "theta_d_deg": 88.87,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0028",
+      "case_type": "space_filling_lhs",
+      "Re": 147.84,
+      "depth_ratio": 0.0437,
+      "width_deg": 42.88,
+      "theta_d_deg": 169.81,
+      "split": "holdout_test"
+    },
+    {
+      "case_id": "P1_0029",
+      "case_type": "space_filling_lhs",
+      "Re": 108.23,
+      "depth_ratio": 0.0291,
+      "width_deg": 55.28,
+      "theta_d_deg": 173.02,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0030",
+      "case_type": "space_filling_lhs",
+      "Re": 84.53,
+      "depth_ratio": 0.017,
+      "width_deg": 43.65,
+      "theta_d_deg": 95.42,
+      "split": "holdout_test"
+    },
+    {
+      "case_id": "P1_0031",
+      "case_type": "space_filling_lhs",
+      "Re": 85.62,
+      "depth_ratio": 0.03,
+      "width_deg": 39.99,
+      "theta_d_deg": 34.85,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0032",
+      "case_type": "space_filling_lhs",
+      "Re": 148.08,
+      "depth_ratio": 0.0426,
+      "width_deg": 54.88,
+      "theta_d_deg": 73.46,
+      "split": "holdout_test"
+    },
+    {
+      "case_id": "P1_0033",
+      "case_type": "space_filling_lhs",
+      "Re": 176.07,
+      "depth_ratio": 0.0967,
+      "width_deg": 54.56,
+      "theta_d_deg": 22.01,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0034",
+      "case_type": "space_filling_lhs",
+      "Re": 122.69,
+      "depth_ratio": 0.0532,
+      "width_deg": 30.07,
+      "theta_d_deg": 175.29,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0035",
+      "case_type": "space_filling_lhs",
+      "Re": 160.62,
+      "depth_ratio": 0.0766,
+      "width_deg": 34.57,
+      "theta_d_deg": 174.38,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0036",
+      "case_type": "space_filling_lhs",
+      "Re": 133.83,
+      "depth_ratio": 0.0239,
+      "width_deg": 45.29,
+      "theta_d_deg": 126.59,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0037",
+      "case_type": "space_filling_lhs",
+      "Re": 95.69,
+      "depth_ratio": 0.0628,
+      "width_deg": 49.55,
+      "theta_d_deg": 76.85,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0038",
+      "case_type": "space_filling_lhs",
+      "Re": 81.9,
+      "depth_ratio": 0.0136,
+      "width_deg": 56.46,
+      "theta_d_deg": 136.25,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0039",
+      "case_type": "space_filling_lhs",
+      "Re": 151.24,
+      "depth_ratio": 0.0459,
+      "width_deg": 15.47,
+      "theta_d_deg": 106.64,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0040",
+      "case_type": "space_filling_lhs",
+      "Re": 117.64,
+      "depth_ratio": 0.0504,
+      "width_deg": 47.31,
+      "theta_d_deg": 131.99,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0041",
+      "case_type": "space_filling_lhs",
+      "Re": 85.26,
+      "depth_ratio": 0.0529,
+      "width_deg": 35.57,
+      "theta_d_deg": 10.4,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0042",
+      "case_type": "space_filling_lhs",
+      "Re": 100.17,
+      "depth_ratio": 0.0488,
+      "width_deg": 53.65,
+      "theta_d_deg": 33.45,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0043",
+      "case_type": "space_filling_lhs",
+      "Re": 152.52,
+      "depth_ratio": 0.0794,
+      "width_deg": 56.27,
+      "theta_d_deg": 4.69,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0044",
+      "case_type": "space_filling_lhs",
+      "Re": 174.99,
+      "depth_ratio": 0.018,
+      "width_deg": 46.73,
+      "theta_d_deg": 88.31,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0045",
+      "case_type": "space_filling_lhs",
+      "Re": 92.59,
+      "depth_ratio": 0.0907,
+      "width_deg": 37.97,
+      "theta_d_deg": 38.58,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0046",
+      "case_type": "space_filling_lhs",
+      "Re": 178.25,
+      "depth_ratio": 0.0916,
+      "width_deg": 13.15,
+      "theta_d_deg": 140.44,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0047",
+      "case_type": "space_filling_lhs",
+      "Re": 102.98,
+      "depth_ratio": 0.058,
+      "width_deg": 57.4,
+      "theta_d_deg": 6.99,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0048",
+      "case_type": "space_filling_lhs",
+      "Re": 114.08,
+      "depth_ratio": 0.0845,
+      "width_deg": 45.46,
+      "theta_d_deg": 107.52,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0049",
+      "case_type": "space_filling_lhs",
+      "Re": 153.96,
+      "depth_ratio": 0.0138,
+      "width_deg": 21.55,
+      "theta_d_deg": 121.88,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0050",
+      "case_type": "space_filling_lhs",
+      "Re": 140.94,
+      "depth_ratio": 0.023,
+      "width_deg": 32.99,
+      "theta_d_deg": 98.74,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0051",
+      "case_type": "space_filling_lhs",
+      "Re": 168.1,
+      "depth_ratio": 0.0366,
+      "width_deg": 27.27,
+      "theta_d_deg": 32.63,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0052",
+      "case_type": "space_filling_lhs",
+      "Re": 136.26,
+      "depth_ratio": 0.0385,
+      "width_deg": 54.09,
+      "theta_d_deg": 151.0,
+      "split": "holdout_test"
+    },
+    {
+      "case_id": "P1_0053",
+      "case_type": "space_filling_lhs",
+      "Re": 99.88,
+      "depth_ratio": 0.0613,
+      "width_deg": 38.94,
+      "theta_d_deg": 42.16,
+      "split": "holdout_test"
+    },
+    {
+      "case_id": "P1_0054",
+      "case_type": "space_filling_lhs",
+      "Re": 82.62,
+      "depth_ratio": 0.0685,
+      "width_deg": 40.4,
+      "theta_d_deg": 25.46,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0055",
+      "case_type": "space_filling_lhs",
+      "Re": 175.73,
+      "depth_ratio": 0.0831,
+      "width_deg": 10.43,
+      "theta_d_deg": 28.81,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0056",
+      "case_type": "space_filling_lhs",
+      "Re": 112.9,
+      "depth_ratio": 0.0866,
+      "width_deg": 15.09,
+      "theta_d_deg": 5.93,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0057",
+      "case_type": "space_filling_lhs",
+      "Re": 81.52,
+      "depth_ratio": 0.0328,
+      "width_deg": 12.07,
+      "theta_d_deg": 11.05,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0058",
+      "case_type": "space_filling_lhs",
+      "Re": 143.19,
+      "depth_ratio": 0.096,
+      "width_deg": 45.84,
+      "theta_d_deg": 112.46,
+      "split": "holdout_test"
+    },
+    {
+      "case_id": "P1_0059",
+      "case_type": "space_filling_lhs",
+      "Re": 156.93,
+      "depth_ratio": 0.0649,
+      "width_deg": 59.79,
+      "theta_d_deg": 24.73,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0060",
+      "case_type": "space_filling_lhs",
+      "Re": 97.07,
+      "depth_ratio": 0.0597,
+      "width_deg": 37.35,
+      "theta_d_deg": 1.81,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0061",
+      "case_type": "space_filling_lhs",
+      "Re": 154.57,
+      "depth_ratio": 0.0383,
+      "width_deg": 17.42,
+      "theta_d_deg": 103.27,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0062",
+      "case_type": "space_filling_lhs",
+      "Re": 145.11,
+      "depth_ratio": 0.0603,
+      "width_deg": 28.99,
+      "theta_d_deg": 68.75,
+      "split": "holdout_test"
+    },
+    {
+      "case_id": "P1_0063",
+      "case_type": "space_filling_lhs",
+      "Re": 126.06,
+      "depth_ratio": 0.0752,
+      "width_deg": 43.1,
+      "theta_d_deg": 12.36,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0064",
+      "case_type": "space_filling_lhs",
+      "Re": 87.81,
+      "depth_ratio": 0.0949,
+      "width_deg": 43.43,
+      "theta_d_deg": 132.22,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0065",
+      "case_type": "space_filling_lhs",
+      "Re": 130.15,
+      "depth_ratio": 0.0824,
+      "width_deg": 48.77,
+      "theta_d_deg": 108.85,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0066",
+      "case_type": "space_filling_lhs",
+      "Re": 132.06,
+      "depth_ratio": 0.0836,
+      "width_deg": 27.59,
+      "theta_d_deg": 66.39,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0067",
+      "case_type": "space_filling_lhs",
+      "Re": 136.91,
+      "depth_ratio": 0.0755,
+      "width_deg": 31.96,
+      "theta_d_deg": 138.81,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0068",
+      "case_type": "space_filling_lhs",
+      "Re": 80.31,
+      "depth_ratio": 0.0779,
+      "width_deg": 12.34,
+      "theta_d_deg": 97.82,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0069",
+      "case_type": "space_filling_lhs",
+      "Re": 179.59,
+      "depth_ratio": 0.0544,
+      "width_deg": 54.29,
+      "theta_d_deg": 86.32,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0070",
+      "case_type": "space_filling_lhs",
+      "Re": 140.47,
+      "depth_ratio": 0.0321,
+      "width_deg": 48.8,
+      "theta_d_deg": 124.66,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0071",
+      "case_type": "space_filling_lhs",
+      "Re": 96.76,
+      "depth_ratio": 0.0984,
+      "width_deg": 37.01,
+      "theta_d_deg": 44.88,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0072",
+      "case_type": "space_filling_lhs",
+      "Re": 149.92,
+      "depth_ratio": 0.0515,
+      "width_deg": 16.95,
+      "theta_d_deg": 13.4,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0073",
+      "case_type": "space_filling_lhs",
+      "Re": 121.27,
+      "depth_ratio": 0.0145,
+      "width_deg": 20.31,
+      "theta_d_deg": 92.37,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0074",
+      "case_type": "space_filling_lhs",
+      "Re": 145.91,
+      "depth_ratio": 0.0991,
+      "width_deg": 20.66,
+      "theta_d_deg": 146.08,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0075",
+      "case_type": "space_filling_lhs",
+      "Re": 128.04,
+      "depth_ratio": 0.0173,
+      "width_deg": 30.62,
+      "theta_d_deg": 134.4,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0076",
+      "case_type": "space_filling_lhs",
+      "Re": 129.66,
+      "depth_ratio": 0.0403,
+      "width_deg": 52.46,
+      "theta_d_deg": 126.05,
+      "split": "holdout_test"
+    },
+    {
+      "case_id": "P1_0077",
+      "case_type": "space_filling_lhs",
+      "Re": 161.96,
+      "depth_ratio": 0.0114,
+      "width_deg": 26.85,
+      "theta_d_deg": 94.58,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0078",
+      "case_type": "space_filling_lhs",
+      "Re": 174.01,
+      "depth_ratio": 0.0899,
+      "width_deg": 46.13,
+      "theta_d_deg": 53.4,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0079",
+      "case_type": "space_filling_lhs",
+      "Re": 88.38,
+      "depth_ratio": 0.0348,
+      "width_deg": 28.66,
+      "theta_d_deg": 153.39,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0080",
+      "case_type": "space_filling_lhs",
+      "Re": 158.27,
+      "depth_ratio": 0.0658,
+      "width_deg": 37.75,
+      "theta_d_deg": 18.82,
+      "split": "holdout_test"
+    },
+    {
+      "case_id": "P1_0081",
+      "case_type": "space_filling_lhs",
+      "Re": 139.5,
+      "depth_ratio": 0.0818,
+      "width_deg": 26.01,
+      "theta_d_deg": 129.41,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0082",
+      "case_type": "space_filling_lhs",
+      "Re": 83.39,
+      "depth_ratio": 0.0511,
+      "width_deg": 26.97,
+      "theta_d_deg": 149.8,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0083",
+      "case_type": "space_filling_lhs",
+      "Re": 133.26,
+      "depth_ratio": 0.0738,
+      "width_deg": 30.56,
+      "theta_d_deg": 141.79,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0084",
+      "case_type": "space_filling_lhs",
+      "Re": 109.21,
+      "depth_ratio": 0.043,
+      "width_deg": 44.13,
+      "theta_d_deg": 74.62,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0085",
+      "case_type": "space_filling_lhs",
+      "Re": 167.46,
+      "depth_ratio": 0.0501,
+      "width_deg": 58.53,
+      "theta_d_deg": 120.75,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0086",
+      "case_type": "space_filling_lhs",
+      "Re": 134.41,
+      "depth_ratio": 0.0609,
+      "width_deg": 22.66,
+      "theta_d_deg": 171.3,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0087",
+      "case_type": "space_filling_lhs",
+      "Re": 153.32,
+      "depth_ratio": 0.0152,
+      "width_deg": 34.5,
+      "theta_d_deg": 14.62,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0088",
+      "case_type": "space_filling_lhs",
+      "Re": 179.09,
+      "depth_ratio": 0.0774,
+      "width_deg": 20.08,
+      "theta_d_deg": 128.59,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0089",
+      "case_type": "space_filling_lhs",
+      "Re": 176.45,
+      "depth_ratio": 0.0638,
+      "width_deg": 40.88,
+      "theta_d_deg": 119.57,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0090",
+      "case_type": "space_filling_lhs",
+      "Re": 149.1,
+      "depth_ratio": 0.0485,
+      "width_deg": 21.96,
+      "theta_d_deg": 142.3,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0091",
+      "case_type": "space_filling_lhs",
+      "Re": 107.41,
+      "depth_ratio": 0.0185,
+      "width_deg": 39.58,
+      "theta_d_deg": 44.66,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0092",
+      "case_type": "space_filling_lhs",
+      "Re": 134.63,
+      "depth_ratio": 0.0353,
+      "width_deg": 13.03,
+      "theta_d_deg": 82.75,
+      "split": "holdout_test"
+    },
+    {
+      "case_id": "P1_0093",
+      "case_type": "space_filling_lhs",
+      "Re": 91.32,
+      "depth_ratio": 0.0524,
+      "width_deg": 57.69,
+      "theta_d_deg": 75.62,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0094",
+      "case_type": "space_filling_lhs",
+      "Re": 170.38,
+      "depth_ratio": 0.025,
+      "width_deg": 16.61,
+      "theta_d_deg": 81.32,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0095",
+      "case_type": "space_filling_lhs",
+      "Re": 127.58,
+      "depth_ratio": 0.0713,
+      "width_deg": 28.28,
+      "theta_d_deg": 130.35,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0096",
+      "case_type": "space_filling_lhs",
+      "Re": 124.06,
+      "depth_ratio": 0.0954,
+      "width_deg": 14.79,
+      "theta_d_deg": 35.6,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0097",
+      "case_type": "space_filling_lhs",
+      "Re": 155.5,
+      "depth_ratio": 0.0407,
+      "width_deg": 59.58,
+      "theta_d_deg": 118.18,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0098",
+      "case_type": "space_filling_lhs",
+      "Re": 124.36,
+      "depth_ratio": 0.0708,
+      "width_deg": 47.04,
+      "theta_d_deg": 15.54,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0099",
+      "case_type": "space_filling_lhs",
+      "Re": 132.61,
+      "depth_ratio": 0.036,
+      "width_deg": 21.34,
+      "theta_d_deg": 51.18,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0100",
+      "case_type": "space_filling_lhs",
+      "Re": 93.16,
+      "depth_ratio": 0.0219,
+      "width_deg": 59.19,
+      "theta_d_deg": 137.37,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0101",
+      "case_type": "space_filling_lhs",
+      "Re": 135.6,
+      "depth_ratio": 0.0192,
+      "width_deg": 34.87,
+      "theta_d_deg": 79.47,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0102",
+      "case_type": "space_filling_lhs",
+      "Re": 115.84,
+      "depth_ratio": 0.0806,
+      "width_deg": 29.1,
+      "theta_d_deg": 105.79,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0103",
+      "case_type": "space_filling_lhs",
+      "Re": 119.47,
+      "depth_ratio": 0.0556,
+      "width_deg": 14.04,
+      "theta_d_deg": 179.72,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0104",
+      "case_type": "space_filling_lhs",
+      "Re": 137.53,
+      "depth_ratio": 0.0393,
+      "width_deg": 38.19,
+      "theta_d_deg": 0.83,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0105",
+      "case_type": "space_filling_lhs",
+      "Re": 123.27,
+      "depth_ratio": 0.0882,
+      "width_deg": 47.63,
+      "theta_d_deg": 57.56,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0106",
+      "case_type": "space_filling_lhs",
+      "Re": 159.58,
+      "depth_ratio": 0.0857,
+      "width_deg": 53.55,
+      "theta_d_deg": 146.71,
+      "split": "holdout_test"
+    },
+    {
+      "case_id": "P1_0107",
+      "case_type": "space_filling_lhs",
+      "Re": 150.6,
+      "depth_ratio": 0.0119,
+      "width_deg": 41.43,
+      "theta_d_deg": 99.77,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0108",
+      "case_type": "space_filling_lhs",
+      "Re": 96.16,
+      "depth_ratio": 0.0941,
+      "width_deg": 18.1,
+      "theta_d_deg": 71.17,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0109",
+      "case_type": "space_filling_lhs",
+      "Re": 143.0,
+      "depth_ratio": 0.0449,
+      "width_deg": 24.64,
+      "theta_d_deg": 117.43,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0110",
+      "case_type": "space_filling_lhs",
+      "Re": 169.26,
+      "depth_ratio": 0.0225,
+      "width_deg": 42.09,
+      "theta_d_deg": 168.32,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0111",
+      "case_type": "space_filling_lhs",
+      "Re": 138.74,
+      "depth_ratio": 0.046,
+      "width_deg": 50.79,
+      "theta_d_deg": 159.55,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0112",
+      "case_type": "space_filling_lhs",
+      "Re": 173.35,
+      "depth_ratio": 0.0674,
+      "width_deg": 17.01,
+      "theta_d_deg": 63.91,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0113",
+      "case_type": "space_filling_lhs",
+      "Re": 125.18,
+      "depth_ratio": 0.062,
+      "width_deg": 57.92,
+      "theta_d_deg": 114.99,
+      "split": "holdout_test"
+    },
+    {
+      "case_id": "P1_0114",
+      "case_type": "space_filling_lhs",
+      "Re": 86.44,
+      "depth_ratio": 0.0292,
+      "width_deg": 24.45,
+      "theta_d_deg": 151.88,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0115",
+      "case_type": "space_filling_lhs",
+      "Re": 177.64,
+      "depth_ratio": 0.0396,
+      "width_deg": 51.87,
+      "theta_d_deg": 159.07,
+      "split": "holdout_test"
+    },
+    {
+      "case_id": "P1_0116",
+      "case_type": "space_filling_lhs",
+      "Re": 97.66,
+      "depth_ratio": 0.0311,
+      "width_deg": 15.31,
+      "theta_d_deg": 163.48,
+      "split": "holdout_test"
+    },
+    {
+      "case_id": "P1_0117",
+      "case_type": "space_filling_lhs",
+      "Re": 118.44,
+      "depth_ratio": 0.0836,
+      "width_deg": 20.0,
+      "theta_d_deg": 90.73,
+      "split": "holdout_test"
+    },
+    {
+      "case_id": "P1_0118",
+      "case_type": "space_filling_lhs",
+      "Re": 138.16,
+      "depth_ratio": 0.0765,
+      "width_deg": 40.0,
+      "theta_d_deg": 154.92,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0119",
+      "case_type": "space_filling_lhs",
+      "Re": 113.69,
+      "depth_ratio": 0.0896,
+      "width_deg": 33.34,
+      "theta_d_deg": 49.46,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0120",
+      "case_type": "space_filling_lhs",
+      "Re": 152.08,
+      "depth_ratio": 0.0538,
+      "width_deg": 18.48,
+      "theta_d_deg": 133.96,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0121",
+      "case_type": "space_filling_lhs",
+      "Re": 105.94,
+      "depth_ratio": 0.0717,
+      "width_deg": 11.09,
+      "theta_d_deg": 55.46,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0122",
+      "case_type": "space_filling_lhs",
+      "Re": 90.59,
+      "depth_ratio": 0.0103,
+      "width_deg": 33.07,
+      "theta_d_deg": 144.15,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0123",
+      "case_type": "space_filling_lhs",
+      "Re": 104.11,
+      "depth_ratio": 0.0264,
+      "width_deg": 23.0,
+      "theta_d_deg": 52.12,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0124",
+      "case_type": "space_filling_lhs",
+      "Re": 171.53,
+      "depth_ratio": 0.0871,
+      "width_deg": 36.63,
+      "theta_d_deg": 8.85,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0125",
+      "case_type": "space_filling_lhs",
+      "Re": 112.19,
+      "depth_ratio": 0.0209,
+      "width_deg": 13.8,
+      "theta_d_deg": 100.79,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0126",
+      "case_type": "space_filling_lhs",
+      "Re": 126.56,
+      "depth_ratio": 0.0967,
+      "width_deg": 14.43,
+      "theta_d_deg": 58.91,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0127",
+      "case_type": "space_filling_lhs",
+      "Re": 159.27,
+      "depth_ratio": 0.0442,
+      "width_deg": 53.11,
+      "theta_d_deg": 67.85,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0128",
+      "case_type": "space_filling_lhs",
+      "Re": 104.38,
+      "depth_ratio": 0.0587,
+      "width_deg": 10.02,
+      "theta_d_deg": 176.9,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0129",
+      "case_type": "space_filling_lhs",
+      "Re": 144.56,
+      "depth_ratio": 0.0573,
+      "width_deg": 51.7,
+      "theta_d_deg": 165.19,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0130",
+      "case_type": "space_filling_lhs",
+      "Re": 128.85,
+      "depth_ratio": 0.0671,
+      "width_deg": 15.85,
+      "theta_d_deg": 116.31,
+      "split": "holdout_test"
+    },
+    {
+      "case_id": "P1_0131",
+      "case_type": "space_filling_lhs",
+      "Re": 122.34,
+      "depth_ratio": 0.0789,
+      "width_deg": 55.96,
+      "theta_d_deg": 161.38,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0132",
+      "case_type": "space_filling_lhs",
+      "Re": 164.0,
+      "depth_ratio": 0.0256,
+      "width_deg": 52.37,
+      "theta_d_deg": 112.34,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0133",
+      "case_type": "space_filling_lhs",
+      "Re": 80.86,
+      "depth_ratio": 0.0591,
+      "width_deg": 47.88,
+      "theta_d_deg": 153.89,
+      "split": "holdout_test"
+    },
+    {
+      "case_id": "P1_0134",
+      "case_type": "space_filling_lhs",
+      "Re": 153.56,
+      "depth_ratio": 0.0565,
+      "width_deg": 51.39,
+      "theta_d_deg": 137.61,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0135",
+      "case_type": "space_filling_lhs",
+      "Re": 143.89,
+      "depth_ratio": 0.0997,
+      "width_deg": 55.52,
+      "theta_d_deg": 149.23,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0136",
+      "case_type": "space_filling_lhs",
+      "Re": 157.97,
+      "depth_ratio": 0.0412,
+      "width_deg": 12.69,
+      "theta_d_deg": 48.3,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0137",
+      "case_type": "space_filling_lhs",
+      "Re": 121.13,
+      "depth_ratio": 0.0106,
+      "width_deg": 19.47,
+      "theta_d_deg": 164.6,
+      "split": "holdout_test"
+    },
+    {
+      "case_id": "P1_0138",
+      "case_type": "space_filling_lhs",
+      "Re": 86.94,
+      "depth_ratio": 0.0497,
+      "width_deg": 21.09,
+      "theta_d_deg": 93.45,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0139",
+      "case_type": "space_filling_lhs",
+      "Re": 177.12,
+      "depth_ratio": 0.0694,
+      "width_deg": 42.59,
+      "theta_d_deg": 89.58,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0140",
+      "case_type": "space_filling_lhs",
+      "Re": 131.05,
+      "depth_ratio": 0.0212,
+      "width_deg": 57.09,
+      "theta_d_deg": 8.54,
+      "split": "holdout_test"
+    },
+    {
+      "case_id": "P1_0141",
+      "case_type": "space_filling_lhs",
+      "Re": 130.76,
+      "depth_ratio": 0.0377,
+      "width_deg": 51.11,
+      "theta_d_deg": 157.28,
+      "split": "holdout_test"
+    },
+    {
+      "case_id": "P1_0142",
+      "case_type": "space_filling_lhs",
+      "Re": 106.56,
+      "depth_ratio": 0.0553,
+      "width_deg": 41.74,
+      "theta_d_deg": 21.19,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0143",
+      "case_type": "space_filling_lhs",
+      "Re": 166.12,
+      "depth_ratio": 0.0472,
+      "width_deg": 26.23,
+      "theta_d_deg": 162.06,
+      "split": "holdout_test"
+    },
+    {
+      "case_id": "P1_0144",
+      "case_type": "space_filling_lhs",
+      "Re": 117.01,
+      "depth_ratio": 0.085,
+      "width_deg": 23.26,
+      "theta_d_deg": 3.82,
+      "split": "holdout_test"
+    },
+    {
+      "case_id": "P1_0145",
+      "case_type": "space_filling_lhs",
+      "Re": 114.91,
+      "depth_ratio": 0.086,
+      "width_deg": 18.78,
+      "theta_d_deg": 67.29,
+      "split": "holdout_test"
+    },
+    {
+      "case_id": "P1_0146",
+      "case_type": "space_filling_lhs",
+      "Re": 160.09,
+      "depth_ratio": 0.0722,
+      "width_deg": 50.13,
+      "theta_d_deg": 156.71,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0147",
+      "case_type": "space_filling_lhs",
+      "Re": 94.44,
+      "depth_ratio": 0.0273,
+      "width_deg": 31.67,
+      "theta_d_deg": 83.99,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0148",
+      "case_type": "space_filling_lhs",
+      "Re": 171.1,
+      "depth_ratio": 0.0811,
+      "width_deg": 23.94,
+      "theta_d_deg": 40.36,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0149",
+      "case_type": "space_filling_lhs",
+      "Re": 89.18,
+      "depth_ratio": 0.0283,
+      "width_deg": 59.03,
+      "theta_d_deg": 30.02,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0150",
+      "case_type": "space_filling_lhs",
+      "Re": 116.92,
+      "depth_ratio": 0.0919,
+      "width_deg": 52.88,
+      "theta_d_deg": 64.47,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0151",
+      "case_type": "space_filling_lhs",
+      "Re": 146.16,
+      "depth_ratio": 0.0314,
+      "width_deg": 56.79,
+      "theta_d_deg": 17.16,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0152",
+      "case_type": "space_filling_lhs",
+      "Re": 163.2,
+      "depth_ratio": 0.0929,
+      "width_deg": 44.88,
+      "theta_d_deg": 178.88,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0153",
+      "case_type": "space_filling_lhs",
+      "Re": 98.88,
+      "depth_ratio": 0.0155,
+      "width_deg": 39.36,
+      "theta_d_deg": 30.89,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0154",
+      "case_type": "space_filling_lhs",
+      "Re": 89.77,
+      "depth_ratio": 0.0979,
+      "width_deg": 34.06,
+      "theta_d_deg": 37.59,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0155",
+      "case_type": "space_filling_lhs",
+      "Re": 106.68,
+      "depth_ratio": 0.0336,
+      "width_deg": 44.75,
+      "theta_d_deg": 109.55,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0156",
+      "case_type": "space_filling_lhs",
+      "Re": 172.76,
+      "depth_ratio": 0.013,
+      "width_deg": 32.47,
+      "theta_d_deg": 40.42,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0157",
+      "case_type": "space_filling_lhs",
+      "Re": 100.71,
+      "depth_ratio": 0.0878,
+      "width_deg": 26.66,
+      "theta_d_deg": 59.64,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0158",
+      "case_type": "space_filling_lhs",
+      "Re": 98.21,
+      "depth_ratio": 0.0277,
+      "width_deg": 32.18,
+      "theta_d_deg": 61.48,
+      "split": "holdout_test"
+    },
+    {
+      "case_id": "P1_0159",
+      "case_type": "space_filling_lhs",
+      "Re": 115.51,
+      "depth_ratio": 0.0368,
+      "width_deg": 18.85,
+      "theta_d_deg": 63.04,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0160",
+      "case_type": "space_filling_lhs",
+      "Re": 101.62,
+      "depth_ratio": 0.0445,
+      "width_deg": 36.32,
+      "theta_d_deg": 43.45,
+      "split": "holdout_test"
+    },
+    {
+      "case_id": "P1_0161",
+      "case_type": "space_filling_lhs",
+      "Re": 126.91,
+      "depth_ratio": 0.0934,
+      "width_deg": 11.79,
+      "theta_d_deg": 96.9,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0162",
+      "case_type": "space_filling_lhs",
+      "Re": 109.89,
+      "depth_ratio": 0.0785,
+      "width_deg": 22.19,
+      "theta_d_deg": 72.45,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0163",
+      "case_type": "space_filling_lhs",
+      "Re": 83.94,
+      "depth_ratio": 0.0234,
+      "width_deg": 23.48,
+      "theta_d_deg": 2.53,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0164",
+      "case_type": "space_filling_lhs",
+      "Re": 142.35,
+      "depth_ratio": 0.0333,
+      "width_deg": 44.46,
+      "theta_d_deg": 70.64,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0165",
+      "case_type": "space_filling_lhs",
+      "Re": 164.76,
+      "depth_ratio": 0.0644,
+      "width_deg": 49.96,
+      "theta_d_deg": 171.06,
+      "split": "holdout_test"
+    },
+    {
+      "case_id": "P1_0166",
+      "case_type": "space_filling_lhs",
+      "Re": 172.15,
+      "depth_ratio": 0.0417,
+      "width_deg": 13.45,
+      "theta_d_deg": 147.81,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0167",
+      "case_type": "space_filling_lhs",
+      "Re": 104.96,
+      "depth_ratio": 0.0304,
+      "width_deg": 19.25,
+      "theta_d_deg": 166.79,
+      "split": "holdout_test"
+    },
+    {
+      "case_id": "P1_0168",
+      "case_type": "space_filling_lhs",
+      "Re": 146.81,
+      "depth_ratio": 0.0747,
+      "width_deg": 16.29,
+      "theta_d_deg": 175.79,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0169",
+      "case_type": "space_filling_lhs",
+      "Re": 93.48,
+      "depth_ratio": 0.0653,
+      "width_deg": 42.34,
+      "theta_d_deg": 78.41,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0170",
+      "case_type": "space_filling_lhs",
+      "Re": 91.86,
+      "depth_ratio": 0.0246,
+      "width_deg": 25.09,
+      "theta_d_deg": 27.38,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0171",
+      "case_type": "space_filling_lhs",
+      "Re": 119.04,
+      "depth_ratio": 0.0577,
+      "width_deg": 36.84,
+      "theta_d_deg": 17.62,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0172",
+      "case_type": "space_filling_lhs",
+      "Re": 108.51,
+      "depth_ratio": 0.0126,
+      "width_deg": 58.21,
+      "theta_d_deg": 84.58,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0173",
+      "case_type": "space_filling_lhs",
+      "Re": 148.71,
+      "depth_ratio": 0.0197,
+      "width_deg": 29.67,
+      "theta_d_deg": 60.07,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0174",
+      "case_type": "space_filling_lhs",
+      "Re": 165.17,
+      "depth_ratio": 0.0468,
+      "width_deg": 31.47,
+      "theta_d_deg": 103.69,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0175",
+      "case_type": "space_filling_lhs",
+      "Re": 88.55,
+      "depth_ratio": 0.0705,
+      "width_deg": 25.39,
+      "theta_d_deg": 113.46,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0176",
+      "case_type": "space_filling_lhs",
+      "Re": 165.96,
+      "depth_ratio": 0.048,
+      "width_deg": 48.21,
+      "theta_d_deg": 20.11,
+      "split": "holdout_test"
+    },
+    {
+      "case_id": "P1_0177",
+      "case_type": "space_filling_lhs",
+      "Re": 101.85,
+      "depth_ratio": 0.0634,
+      "width_deg": 11.27,
+      "theta_d_deg": 36.85,
+      "split": "train"
+    },
+    {
+      "case_id": "P1_0178",
+      "case_type": "space_filling_lhs",
+      "Re": 139.35,
+      "depth_ratio": 0.0342,
+      "width_deg": 38.71,
+      "theta_d_deg": 46.95,
+      "split": "holdout_test"
+    },
+    {
+      "case_id": "P1_0179",
+      "case_type": "space_filling_lhs",
+      "Re": 162.48,
+      "depth_ratio": 0.0561,
+      "width_deg": 27.89,
+      "theta_d_deg": 54.17,
+      "split": "train"
+    }
+  ]
+}
